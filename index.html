@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game</title>
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <head>
+        <div class="row text-center bg-dark text-white">
+            <div class="col"><h1>Ludo Game</h1></div>
+        </div>
+
+    </head>
+    <style>
+        .active-player {
+            background-color: lightblue; /* You can customize the style for the active player */
+        }
+    </style>
+    
+    <main>
+        <div class="bg-warning py-5">
+            <div class="row text-center py-3">
+                <div class="col" id="player1"><h1>PLAYER 1</h1></div>
+                <div class="col" id="player2"><h1>PLAYER 2</h1></div>
+            </div>
+            <div class="row m-1 py-3">
+                <div class="col text-center"><h1 id="player1Score">0</h1></div>
+                <div class="col text-center"><img src="/images/" alt="" id="theImg"></div>
+                <div class="col text-center"><h1 id="player2Score">0</h1></div>
+            </div>
+            <div class="row">
+                <div class="col"><h1 class="text-center" id="output3"></h1></div>
+            </div>
+            <div class="row">
+                <div class="col text-center py-3">
+                    <button type="button" class="btn bg-white border-rounded" id="roll" disabled>Roll Dice</button>
+                    <button type="button" class="btn bg-white border-rounded" id="reset" disabled>Reset Game</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer> 
+        <div class="row bg-dark text-white text-center">
+            <div class="col">Prepared By Shahzad Minhaj SMIT, Peshawar</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
