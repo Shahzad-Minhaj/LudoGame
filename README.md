@@ -35,7 +35,7 @@ Welcome to the Dice Game! This is a simple two-player dice game where players ta
 
 ## How to Run
 
-Simply open the `index.html` file in a web browser.
+Simply open the `index.html` file in a web browser or visit (Ludo Game)[http://ludogame.surge.sh].
 
 ## Development
 
