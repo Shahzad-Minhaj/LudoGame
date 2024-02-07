@@ -35,7 +35,7 @@ Welcome to the Dice Game! This is a simple two-player dice game where players ta
 
 ## How to Run
 
-Simply open the `index.html` file in a web browser or visit (Ludo Game)[http://ludogame.surge.sh].
+Simply open the `index.html` file in a web browser or visit [Ludo Game](http://ludogame.surge.sh).
 
 ## Development
 
@@ -43,6 +43,6 @@ Feel free to contribute to the development of the game by making improvements or
 
 ## Credits
 
-This Dice Game was created by [Shahzad Minhaj from SMIT-Peshawar]. It is a simple project assignment given to me to demonstrate basic web development skills.
+This Dice Game was created by __Shahzad Minhaj__ from SMIT-Peshawar. It is a simple project assignment given to me to demonstrate basic web development skills.
 
 Enjoy the game!
