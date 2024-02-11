@@ -1,11 +1,13 @@
+/* h2{
+  font-size: 2rem;
+} */
 /* Default styles for img */
 img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 1px solid black;
     border-radius: 5px;
 }
-
 /* Styles for larger screens */
 @media (min-width: 768px) {
     img {
@@ -21,6 +23,8 @@ img {
 /* Styles for active player */
 .active-player {
     background-color: lightblue;
+    border-radius: 10px;
+    transition: all 0.5s;
     /* You can customize the style for the active player */
 }
 
@@ -41,8 +45,8 @@ footer {
 .contact-info,
 .social-links,
 .footer-links {
-  flex: 1;
-  margin: 10px;
+  /* flex: 1; */
+  margin: 1rem;
 }
 .contact-info a{
   text-decoration: none;
